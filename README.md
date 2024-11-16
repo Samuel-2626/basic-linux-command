@@ -75,3 +75,29 @@ These are useful for managing system resources, processes, and services
 - `groupadd <groupname>`: Add a new group
 - `groupdel <groupname>`: Delete a group
 - `passwd <username>`: Set or change a user's password
+
+## Networking Commands
+
+Linux offers powerful networking commands for managing and troubleshooting network connections.
+
+### Network Configuration
+
+- `ip addr`: Display IP addresses of all network interfaces
+- `ip link`: Display or manage network interfaces.
+- `ping <host>`: Check connectivity to another machine (ping a host).
+- `ss`: A modern replacement for `netstat`, used to display socket statistics.
+- `traceroute <host>`: Trace the route packets take to a network host
+
+
+### Firewall Configuration:
+
+- `ufw` (Uncomplicated Firewall): An easy-to-use frontend for `iptables`.
+    * Example: `ufw allow 80/tcp` (allow HTTP traffic).
+
+### SSH
+
+- `ssh <user>@<host>`: Securely connect to a remote machine.
+- `scp <source> <destination>`: Securely copy files between systems
+- `sftp <user>@<host>`: Secure file transfer using FTP over SSH
+
+
