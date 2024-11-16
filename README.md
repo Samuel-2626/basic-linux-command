@@ -51,3 +51,9 @@ These are useful for managing system resources, processes, and services
 - `killall <process_name>`: Kill all processes by name
 - `bg`: Rename a suspended process in the background
 - `fg`: Bring a background process to the foreground
+
+### System Resource Management
+
+- `free`: Display memory usage
+- `uptime`: Show how long the system has been running, load averages, and users.
+- `vmstat`: Display system memory, processes, and CPU information
