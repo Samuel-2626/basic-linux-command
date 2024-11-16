@@ -57,3 +57,12 @@ These are useful for managing system resources, processes, and services
 - `free`: Display memory usage
 - `uptime`: Show how long the system has been running, load averages, and users.
 - `vmstat`: Display system memory, processes, and CPU information
+
+### Service Management (System-based systems like Ubuntu, CentOS 7+)
+
+- `systemct1 status <service>`: check the status of a system service
+- `systemct1 start <service>`: start a service
+- `systemct1 stop <service>`: stop a service
+- `systemct1 restart <service>`: restart a service
+- `systemct1 enable <service>`: enable a service to start on boot
+- `systemct1 disable <service>`: disable a service from starting on boot
