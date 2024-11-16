@@ -100,4 +100,16 @@ Linux offers powerful networking commands for managing and troubleshooting netwo
 - `scp <source> <destination>`: Securely copy files between systems
 - `sftp <user>@<host>`: Secure file transfer using FTP over SSH
 
+## Advanced System Administration Tools
 
+- Cron Jobs:
+
+Cron jobs are scheduled tasks that run at set intervals or times. They are often used to automate repetitive tasks, such as: Backing up databases, Generating reports, Monitoring disk space, Checking for broken links, and Clearing a site's cache.
+
+Cron jobs are useful for computers that run 24/7, like virtual private servers. They are also a useful concept in back-end development.
+
+- Here are some things to know about cron jobs:
+
+* How they work
+
+A cron job is an entry in a table called the crontab, which contains a schedule and a command to be executed. The cron daemon (crond) looks for entries in the crontab to determine what jobs to run and when.
