@@ -66,3 +66,12 @@ These are useful for managing system resources, processes, and services
 - `systemct1 restart <service>`: restart a service
 - `systemct1 enable <service>`: enable a service to start on boot
 - `systemct1 disable <service>`: disable a service from starting on boot
+
+### Managing Users and Groups
+
+- `useradd <username>`: Add a new user
+- `usermod <username>`: Modify an existing user (e.g. change groups, shell).
+- `userdel <username>`: Delete a user
+- `groupadd <groupname>`: Add a new group
+- `groupdel <groupname>`: Delete a group
+- `passwd <username>`: Set or change a user's password
