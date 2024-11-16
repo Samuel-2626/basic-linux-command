@@ -42,5 +42,6 @@
 These are useful for managing system resources, processes, and services
 
 ### Process Management
-    - `ps`: Display running process
-        * Example `ps aux`: (display all processes)
+
+- `ps`: Display running process
+    * Example `ps aux`: (display all processes)
