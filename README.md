@@ -30,3 +30,9 @@
 - `chown <user>:<group> <file>`: Change file ownership
     * Example: `chown user:group <file>`: Change file ownership and group
 - `chgrp <group> <file>`: Change the group ownership of a file
+
+## File System Management
+
+- `df`: Display disk space usage of file systems
+- `du`: Display file space usage within directories
+    * Example: `du -sh <directory>`: Show human-readable size of the directory 
