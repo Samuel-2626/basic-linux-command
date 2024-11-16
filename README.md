@@ -45,3 +45,9 @@ These are useful for managing system resources, processes, and services
 
 - `ps`: Display running process
     * Example `ps aux`: (display all processes)
+- `top`: Display real-time process information, including CPU and memory usage.
+- `htop`: An improved version of `top` (requires installation)
+- `kill <PID>`: Terminate a process by its PID (Process ID)
+- `killall <process_name>`: Kill all processes by name
+- `bg`: Rename a suspended process in the background
+- `fg`: Bring a background process to the foreground
