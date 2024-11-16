@@ -35,4 +35,12 @@
 
 - `df`: Display disk space usage of file systems
 - `du`: Display file space usage within directories
-    * Example: `du -sh <directory>`: Show human-readable size of the directory 
+    * Example: `du -sh <directory>`: Show human-readable size of the directory
+
+## System Management Commands
+
+These are useful for managing system resources, processes, and services
+
+### Process Management
+    - `ps`: Display running process
+        * Example `ps aux`: (display all processes)
